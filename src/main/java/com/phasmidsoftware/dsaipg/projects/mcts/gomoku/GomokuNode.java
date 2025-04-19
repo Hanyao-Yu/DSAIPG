@@ -12,8 +12,8 @@ import com.phasmidsoftware.dsaipg.projects.mcts.core.State;
 public class GomokuNode implements Node<Gomoku> {
 
     private final GomokuState      state;
-    private final GomokuMove       move;    // 从父节点落到本节点的那步
-    private GomokuNode             parent;  // 可变，用于 advanceRoot
+    private final GomokuMove       move;   
+    private GomokuNode             parent;  
     private final List<GomokuNode> children = new ArrayList<>();
     private int                    wins=0, visits=0;
 

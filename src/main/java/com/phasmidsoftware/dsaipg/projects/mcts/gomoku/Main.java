@@ -138,6 +138,7 @@ public class Main {
                                      result.moveCount, 
                                      result.gameDurationMs);*/
                 }
+                
 
                 // 计算并显示此配置的统计数据
                 double avgTime = (double)totalGameTime / GAMES_PER_CONFIG;
